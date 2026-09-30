@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated demo data (regenerate with run_all.py)
+data/veda_sync_demo*.csv
+
+# Model artifacts (regenerate with 03_train_model.py)
+models/*.pkl
+models/*.joblib
+outputs/test_predictions.csv
+outputs/shap_feature_importance.csv
+
+# VS Code
+.vscode/settings.json.local
+
+# OS
+.DS_Store
+Thumbs.db

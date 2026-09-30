@@ -1,0 +1,77 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "01 - Load & Clean Data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/01_data_loading.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "02 - EDA",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/02_eda.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "03 - Feature Engineering",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/03_feature_engineering.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "04 - Train Models",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/04_train_models.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "05 - Evaluate",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/05_evaluate.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "06 - Explainability",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/06_explainability.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "07 - Predict",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/07_predict.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "RUN ALL PIPELINE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_all.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}

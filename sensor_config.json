@@ -1,0 +1,16 @@
+{
+  "clamp_ranges": {
+    "temperature_celsius": [20, 45],
+    "pressure_grams": [0, 2000],
+    "moisture_rh_percent": [0, 100],
+    "spo2_percent": [70, 100],
+    "heart_rate_bpm": [30, 220],
+    "humidity_level": [0, 100],
+    "device_battery_percent": [0, 100]
+  },
+  "clinical_thresholds": {
+    "temperature_asymmetry_warning_c": 1.0,
+    "temperature_asymmetry_high_c": 2.2,
+    "pressure_alert_grams": 500
+  }
+}
